@@ -1,0 +1,10 @@
+{
+  "name": "jobly-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm start --prefix backend",
+    "heroku-postbuild": "npm install --prefix jobly && npm run build --prefix jobly"
+  },
+  "dependencies": {}
+}
+
